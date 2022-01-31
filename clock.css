@@ -2,16 +2,17 @@
 
 }
 .box{
-    border: 4px solid rgb(0, 234, 255);
+    /* border: 4px solid rgb(0, 234, 255); */
     position: relative;
-    background-color: lightskyblue;
-    border-radius: 8%;
+    background-color: rgb(216, 228, 236);
+    border-radius: 2%;
     height: 100%;
     width: 90%;
 }
 
 #container{  
-    background: url(/clock\ 1.png) no-repeat;
+    background: url(/clcok1.jfif) no-repeat;
+    /* border: 3px solid red; */
     /* border: 3px solid red; */
     border-radius: 30%;
     /* padding: 2%; */
@@ -27,20 +28,23 @@
     background: black;
     border-radius: 10px; 
     transform-origin: bottom;
+    /* color: red; */
 }
 #hour{
     /* display: none; */
     width: 1.8%;
+    background: greenyellow;
+    background: black;
     height: 25%;
     top: 25%;
-    left: 48.85%;
+    left: 48%;
     opacity: 0.8;  
 }
 #minute{
     /* display: none; */
     width: 1.6%;
     height: 30%;
-    top: 19%;
+    top: 19.7%;
     left: 48.100%;
     opacity: 0.8;  
 }
@@ -48,7 +52,8 @@
     /* display: none; */
     width: 1%;
     height: 40%;
-    top: 9%;
+    background: red;
+    top: 10%;
     left: 48.50%;
     opacity: 0.8; 
     
